@@ -1,0 +1,130 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+    font-family: &#039;Raleway&#039;, sans-serif;
+    background-image: linear-gradient(135deg,#dedede,#ffffff);
+}
+
+a{
+
+	color:black;
+}
+
+.container { 
+ position: absolute;
+ width: 60%;
+ height: 100%;
+ text-align: center;
+ 
+}
+
+.form {
+ position: absolute;
+ top: 0;
+ right: 0;
+ width: 40%;
+ height: 100%;
+ background: #fff;
+ display: inline-block;
+
+ 
+
+}
+
+.form-section {
+
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ width: 80%;
+
+}
+
+.group {
+ margin-bottom: 5px;
+ color: black;
+}
+
+.control {
+ width: 100%;
+ padding: 5px;
+ border-top: 0;
+ border-left: 0;
+ border-right: 0;
+ border-bottom: 1px solid silver;
+ border-radius: 0;
+ transition: all 2s;
+}
+
+.control:focus {
+ outline: none;
+ border-bottom-color: blue;
+}
+
+.btn {
+ display: block;
+ width: 100%;
+ padding: 13px;
+ border-radius: 30px;
+ background-image: linear-gradient(to right,  #ec5939 ,   #c1482f );
+ color: #fff;
+ border:0;
+ font-size: 20px;
+ font-weight: 150;
+}
+.btn-modify{
+    display: inline-block;
+    width: 200px;
+    
+}
+
+.m20 {
+ margin-top: 20px;
+}
+
+.link {
+ text-decoration: none;
+ color: black;
+ font-weight: 300;
+}
+
+.heading {
+ 
+ font-weight: 200;
+
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+.success {
+    width: 100%;
+    padding: 13px;
+    background-color: #15B309;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.contain {
+    display: inline-block;
+    padding: 50px;
+
+}
+.contain-padre {
+    text-align: center;
+
+    
+}
+
+@media screen and (max-width: 765px){
+ .form {
+ width: 100%;
+}
+}
